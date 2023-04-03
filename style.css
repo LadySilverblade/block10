@@ -1,0 +1,48 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+#container {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: blue;
+  padding: 5rem;
+  margin: 0.5rem;
+  justify-content: space-evenly;
+  position: fixed;
+  position: initial;
+}
+
+.cards {
+  background-color: pink;
+  box-shadow: 1rem 1rem 1rem green;
+  border: 0.5rem black solid;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 8rem;
+  margin: 0.5rem;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1rem;
+  background-color: green;
+}
+
+#cup {
+  background-color: red;
+  height: 5rem;
+  padding: 5rem;
+  margin: -1rem 0.75rem;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
